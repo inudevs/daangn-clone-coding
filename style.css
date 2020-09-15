@@ -83,3 +83,26 @@ div.button-container button span {
   font-weight: 900;
   margin-left: 8px;
 }
+
+header {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header h1 {
+  font-size: 2.15rem;
+  font-weight: 900;
+}
+
+div.content-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+main.content {
+  width: 60%;
+}
