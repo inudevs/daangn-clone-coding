@@ -21,3 +21,21 @@ button {
     HelveticaNeue-Light, "Malgun Gothic",
     "맑은 고딕", sans-serif;
 }
+
+nav.navigation,
+div.searchbar-container,
+div.button-container {
+  display: flex;
+  align-items: center;
+}
+
+div.navigation-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+nav.navigation {
+  width: 80%;
+  justify-content: space-between;
+}
